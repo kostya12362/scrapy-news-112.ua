@@ -1,8 +1,10 @@
 # scrapy-news-112.ua
-
+parser for the site https://112.ua/
+## Installation
 first install the virtual environment
-
+```bash
 $ pip install virtualenv
+```
 $ mkdir scrapy_spider && cd scrapy_spider
 $ python3 -m venv venv
 
