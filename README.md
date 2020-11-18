@@ -29,5 +29,5 @@ $ cd /scrapy-news-112.ua
 ## Run spider 
 To start and save the file in csv, run
 ```linux
-scrapy crawl news112 -o news.csv
+$ scrapy crawl news112 -o news.csv
 ```
