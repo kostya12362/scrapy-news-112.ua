@@ -26,6 +26,11 @@ $ cd news/spiders
 $ git clone https://github.com/kostya12362/scrapy-news-112.ua.git
 $ cd /scrapy-news-112.ua
 ```
+## Fix settings
+In your settings.py file comment out
+```python
+ROBOTS TXT OBEY = True
+```
 ## Run spider 
 To start and save the file in csv, run
 ```linux
