@@ -26,4 +26,8 @@ $ cd news/spiders
 $ git clone https://github.com/kostya12362/scrapy-news-112.ua.git
 $ cd /scrapy-news-112.ua
 ```
+## Run spider 
+To run and save the file in csv, use the
+```linux
 scrapy crawl news112 -o news.csv
+```
