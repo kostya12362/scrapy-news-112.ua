@@ -7,7 +7,7 @@ $ pip install virtualenv
 ```
 
 The next step is to create a directory in which our folder will be in the environment
-```bash
+```linux
 $ mkdir scrapy_spider && cd scrapy_spider
 $ python3 -m venv venv
 ```
